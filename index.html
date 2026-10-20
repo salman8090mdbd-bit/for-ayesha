@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#160f1b">
+<title>For Ayesha — A Little World of Memories</title>
+<style>
+:root{--bg:#160f1b;--card:#241827;--rose:#f3a8bc;--gold:#f6dca8;--cream:#fff6ef;--muted:#d8c4d2}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at top,#39203b 0,#160f1b 50%,#0d0a10 100%);color:var(--cream);font-family:Georgia,'Times New Roman',serif;line-height:1.65}button,input,textarea{font:inherit}button{cursor:pointer}.wrap{width:min(900px,92%);margin:auto}.hero{min-height:100svh;display:grid;place-items:center;text-align:center;padding:48px 0;position:relative;overflow:hidden}.glow{position:absolute;width:300px;height:300px;border-radius:50%;background:#f3a8bc20;filter:blur(50px);top:10%;left:calc(50% - 150px);pointer-events:none}.eyebrow{letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font: .72rem Arial,sans-serif}.hero h1{font-size:clamp(2.8rem,10vw,5.7rem);line-height:1.05;margin:18px 0;color:var(--rose);font-weight:normal}.hero p{max-width:540px;margin:18px auto;color:var(--muted)}.small{font: .82rem Arial,sans-serif;color:var(--muted)}.btn{border:1px solid #f3a8bc80;background:linear-gradient(135deg,#e88da9,#bd648b);color:#210f1c;padding:13px 22px;border-radius:999px;font-weight:bold;box-shadow:0 8px 28px #0003;transition:.2s}.btn:hover{transform:translateY(-2px)}.btn.secondary{background:transparent;color:var(--cream);border-color:#f6dca866;box-shadow:none}.section{padding:68px 0}.hidden{display:none!important}.panel{background:#241827d9;border:1px solid #f6dca822;border-radius:24px;padding:clamp(20px,5vw,38px);box-shadow:0 18px 55px #0003}.section h2{font-size:clamp(2rem,6vw,3rem);font-weight:normal;color:var(--rose);line-height:1.15;margin:8px 0 18px}.center{text-align:center}.divider{width:70px;height:1px;background:var(--gold);margin:20px auto}.letter{white-space:pre-line;font-size:1.08rem;color:#f8e9e9}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:13px}.photo{border:1px dashed #f3a8bc80;background:#ffffff08;border-radius:16px;min-height:150px;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;position:relative;overflow:hidden}.photo img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}.photo span{z-index:1;background:#160f1bd9;border-radius:10px;padding:8px;font: .85rem Arial,sans-serif}.photo:has(img) span{display:none}.timeline{border-left:1px solid #f3a8bc80;margin:28px 0 8px 10px;padding-left:24px}.moment{position:relative;margin:0 0 26px}.moment:before{content:"";position:absolute;left:-30px;top:9px;width:10px;height:10px;background:var(--gold);border-radius:50%;box-shadow:0 0 0 5px #f6dca81c}.moment h3{color:var(--gold);margin:0}.moment p{margin:6px 0;color:var(--muted)}.surprise{font-size:1.25rem;color:var(--gold)}footer{text-align:center;padding:38px 15px 55px;color:var(--muted);font-size:.9rem}.tiny{font: .75rem Arial,sans-serif;color:#bda9ba}.editbox{display:grid;gap:12px;margin-top:18px}input,textarea{width:100%;background:#160f1b;color:var(--cream);border:1px solid #f3a8bc66;border-radius:12px;padding:12px}textarea{min-height:95px;resize:vertical}.editrow{display:grid;grid-template-columns:1fr 1fr;gap:10px}.actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:22px}.music-note{font-size:.83rem;color:var(--muted);margin-top:12px}@media(max-width:480px){.section{padding:48px 0}.editrow{grid-template-columns:1fr}.panel{border-radius:18px}.hero{min-height:90svh}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="glow"></div>
+  <div class="wrap">
+    <div class="eyebrow">A little world made just for you</div>
+    <h1>For <span id="heroName">Ayesha</span><br>♡</h1>
+    <p>Some people make ordinary days unforgettable. This little corner of the internet is a collection of moments, words, and wishes made with you in mind.</p>
+    <button class="btn" id="openBtn">Open your surprise ✨</button>
+    <p class="small">A birthday keepsake by Mohammed Salman</p>
+  </div>
+</header>
+<main id="mainContent" class="hidden">
+<section class="section"><div class="wrap panel center">
+  <div class="eyebrow">Chapter one · A wish for you</div>
+  <h2>Happy Birthday,<br><span id="nameHeading">Rahima Akther Ayesha</span> ♡</h2>
+  <div class="divider"></div>
+  <p>আজকের দিনটা তোমার জন্য একটু বেশি সুন্দর হোক। তোমার হাসি, স্বপ্ন আর ছোট ছোট আনন্দগুলো যত্নে থাকুক—আজ, আগামীকাল, আর তারও পরে।</p>
+  <p class="surprise">“You deserve a life that feels as beautiful as the kindness you give.”</p>
+  <button class="btn secondary next" data-next="memories">Turn the page →</button>
+</div></section>
+<section class="section" id="memories"><div class="wrap">
+  <div class="center"><div class="eyebrow">Chapter two · Little moments</div><h2>Our Memory Gallery</h2><p class="small">ছবি যোগ করতে নিচের ছবির ঘরে চাপ দিন। আপনার বেছে নেওয়া ছবি এই ব্রাউজারেই দেখা যাবে।</p></div>
+  <div class="grid" id="gallery">
+    <label class="photo"><input type="file" accept="image/*" hidden><span>＋ Add a memory photo</span></label>
+    <label class="photo"><input type="file" accept="image/*" hidden><span>＋ Add a favorite moment</span></label>
+    <label class="photo"><input type="file" accept="image/*" hidden><span>＋ Add a little smile</span></label>
+  </div>
+  <p class="tiny center">নোট: এখানে ছবি যোগ করলে তা স্বয়ংক্রিয়ভাবে অনলাইনে আপলোড হয় না। সবার জন্য দেখাতে হলে ছবিগুলো ওয়েবসাইটের ফোল্ডারে যোগ করে পুনরায় প্রকাশ করুন।</p>
+  <div class="panel center" style="margin-top:22px">
+    <div class="eyebrow">A soundtrack for this memory</div>
+    <h2 style="font-size:1.8rem">A little music ♫</h2>
+    <p class="small">আপনার ডিভাইস থেকে একটি অডিও ফাইল বেছে নিন। এটি এই ব্রাউজারেই চলবে; সবার জন্য চালু করতে অডিও ফাইল ওয়েবসাইটের সঙ্গে প্রকাশ করুন।</p>
+    <input id="musicFile" type="file" accept="audio/*" aria-label="Choose background music">
+    <audio id="bgMusic" controls loop style="width:100%;margin-top:14px"></audio>
+  </div>
+  <div class="actions"><button class="btn secondary next" data-next="letter">Read your letter →</button></div>
+</div></section>
+<section class="section" id="letter"><div class="wrap panel">
+  <div class="eyebrow">Chapter three · From my heart</div><h2>A letter for you</h2>
+  <div class="letter" id="letterText">প্রিয় আয়েশা,
+
+জন্মদিনের অনেক অনেক শুভেচ্ছা। তোমার জীবনের নতুন বছরটি হোক শান্তি, সুন্দর সুযোগ, আন্তরিক মানুষ আর পূর্ণ হয়ে ওঠা স্বপ্নে ভরা।
+
+কিছু অনুভূতি খুব সহজে বলা যায় না—তাই সেগুলোকে শব্দে, স্মৃতিতে আর ছোট ছোট যত্নে রেখে দিতে ইচ্ছে করে। এই ওয়েবসাইটটি তেমনই একটি ছোট্ট উপহার; তোমাকে মনে করে সাজানো কিছু কথা, কিছু মুহূর্ত, আর অনেক শুভকামনা।
+
+তোমার হাসি অটুট থাকুক, মন ভালো থাকুক, আর তুমি যেন নিজের মতো করে সুন্দর একটি জীবন গড়ে তুলতে পারো। আজকের দিনটি তোমাকে মনে করিয়ে দিক—তুমি মূল্যবান, তোমার স্বপ্নগুলোও মূল্যবান।
+
+শুভ জন্মদিন, আয়েশা। ❤️
+
+ইতি,
+Mohammed Salman</div>
+  <div class="actions"><button class="btn secondary next" data-next="timeline">Visit our timeline →</button></div>
+</div></section>
+<section class="section" id="timeline"><div class="wrap panel">
+  <div class="eyebrow">Chapter four · Little pieces of time</div><h2>Our Story, One Moment at a Time</h2>
+  <div class="timeline" id="timelineItems">
+    <div class="moment"><h3>The day we first talked</h3><p>এখানে প্রথম পরিচয় বা প্রথম কথোপকথনের স্মৃতি লিখুন।</p></div>
+    <div class="moment"><h3>A moment I still remember</h3><p>এখানে এমন একটি মুহূর্ত লিখুন, যা আজও মনে পড়লে ভালো লাগে।</p></div>
+    <div class="moment"><h3>A little memory to keep</h3><p>এখানে আপনাদের কোনো বিশেষ দিন, কথা বা ছোট্ট অভিজ্ঞতা যোগ করুন।</p></div>
+  </div>
+  <div class="actions"><button class="btn secondary" id="addMomentBtn">＋ Add a memory</button><button class="btn next" data-next="final">One last surprise ✨</button></div>
+  <div id="momentForm" class="editbox hidden"><input id="momentTitle" placeholder="Memory title"><textarea id="momentDesc" placeholder="Write the memory here..."></textarea><button class="btn" id="saveMoment">Save memory</button></div>
+</div></section>
+<section class="section hidden" id="final"><div class="wrap panel center">
+  <div class="eyebrow">One last thing</div><h2>For all the days ahead…</h2>
+  <p class="surprise">May life be gentle with you, may your dreams find their way to you, and may you always have reasons to smile.</p>
+  <p>এই ছোট্ট ওয়েবসাইটের প্রতিটি শব্দ আর স্মৃতি তোমার জন্মদিনকে একটু বিশেষ করে তুলুক। আর ভবিষ্যতে আরও সুন্দর স্মৃতি যোগ করার জন্য এই জায়গাটি রইল।</p>
+  <div class="divider"></div><h2 style="font-size:2rem">With warm wishes,</h2><p id="senderSign" class="surprise">Mohammed Salman</p>
+  <button class="btn secondary" id="againBtn">Read it all again ↺</button>
+</div></section>
+</main>
+<footer><p>Made with care ♡ for <span id="footerName">Ayesha</span></p><p class="tiny">A small digital keepsake · Keep adding memories</p></footer>
+<script>
+const $=s=>document.querySelector(s);
+const $$=s=>document.querySelectorAll(s);
+$('#openBtn').addEventListener('click',()=>{$('#mainContent').classList.remove('hidden');$('#mainContent').scrollIntoView({behavior:'smooth'});$('#openBtn').textContent='Your surprise is open ♡';});
+$$('.next').forEach(b=>b.addEventListener('click',()=>{const target=$('#'+b.dataset.next);target.classList.remove('hidden');target.scrollIntoView({behavior:'smooth',block:'start'});}));
+$('#againBtn').addEventListener('click',()=>{document.querySelector('.hero').scrollIntoView({behavior:'smooth'});});
+function addImageHandler(label){const input=label.querySelector('input');input.addEventListener('change',()=>{const file=input.files&&input.files[0];if(!file)return;const old=label.querySelector('img');if(old)old.remove();const img=document.createElement('img');img.alt='Memory photo';img.src=URL.createObjectURL(file);label.appendChild(img);});}
+$$('.photo').forEach(addImageHandler);
+$('#addMomentBtn').addEventListener('click',()=>$('#momentForm').classList.toggle('hidden'));
+$('#saveMoment').addEventListener('click',()=>{const title=$('#momentTitle').value.trim(),desc=$('#momentDesc').value.trim();if(!title||!desc){alert('Please add both a title and a memory.');return;}const item=document.createElement('div');item.className='moment';const h=document.createElement('h3');h.textContent=title;const p=document.createElement('p');p.textContent=desc;item.append(h,p);$('#timelineItems').appendChild(item);$('#momentTitle').value='';$('#momentDesc').value='';$('#momentForm').classList.add('hidden');});
+/* Personalize the site here before publishing. */
+const PERSONALIZE={recipient:'Rahima Akther Ayesha',sender:'Mohammed Salman'};
+$('#heroName').textContent=PERSONALIZE.recipient.split(' ').slice(-1)[0];
+$('#nameHeading').textContent=PERSONALIZE.recipient;
+$('#footerName').textContent=PERSONALIZE.recipient;
+$('#senderSign').textContent=PERSONALIZE.sender;
+/* Music picker: local preview. For public playback, set the audio src to a hosted file path such as "music.mp3". */
+$('#musicFile').addEventListener('change',()=>{const file=$('#musicFile').files&&$('#musicFile').files[0];if(!file)return;$('#bgMusic').src=URL.createObjectURL(file);$('#bgMusic').play().catch(()=>{});});
+</script>
+</body>
+</html>
